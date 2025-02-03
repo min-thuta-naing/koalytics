@@ -8,11 +8,15 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
+        backgroundColor: Colors.blue,
       ),
-      body: const Center(
-        child: Text(
-          'Welcome to Flutter!',
-          style: TextStyle(fontSize: 20),
+      body: Container(
+        color: Colors.lightBlue[100], // Set background color to sky blue
+        child: const Center(
+          child: Text(
+            'Welcome to Flutter!',
+            style: TextStyle(fontSize: 20),
+          ),
         ),
       ),
     );
