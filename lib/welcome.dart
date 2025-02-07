@@ -7,19 +7,19 @@ class Welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-        backgroundColor: Colors.blue,
-      ),
       body: Container(
-        color: Colors.lightBlue[100], // Set background color to sky blue
+        color: Color.fromARGB(255, 174, 225, 185), // Set background color to sky blue
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Image.asset('assets/logo.png', width: 250, height: 250),
               const Text(
-                'Welcome to Flutter!',
-                style: TextStyle(fontSize: 20),
+                'Welcome to KOALYTICS',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontFamily: 'Montserrat', // A built-in Flutter font similar to Century Gothic
+                ),
               ),
               const SizedBox(height: 20),
               ElevatedButton(
