@@ -12,7 +12,11 @@ class SusQuest extends StatelessWidget {
         child: Column(
           children: [
             const Text(
+<<<<<<< HEAD
               'SUS Questionnaires',
+=======
+              'SUS Questionnaire',
+>>>>>>> b068b78 (home to researcher)
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
